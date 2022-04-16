@@ -4,3 +4,4 @@ this is blueocean_repo_cicd_pipeline2
 this is blueocean_repo_cicd_pipeline3
 this is blueocean_repo_cicd_pipeline4
 this is blueocean_repo_cicd_pipeline5
+this is blueocean_repo_cicd_pipeline6
