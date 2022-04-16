@@ -14,8 +14,19 @@ pipeline {
     }
 
     stage('stage') {
-      steps {
-        echo 'stage pipeline'
+      parallel {
+        stage('stage1_parallel') {
+          steps {
+            echo 'stage pipeline 1 parallel'
+          }
+        }
+
+        stage('stage2_pipeline') {
+          steps {
+            echo 'stage 2 pipeline parallel'
+          }
+        }
+
       }
     }
 
