@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'build pipeline'
-        sh '''cal
+        sh '''cat
 date
 '''
       }
