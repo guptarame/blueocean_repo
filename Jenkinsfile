@@ -30,9 +30,26 @@ pipeline {
       }
     }
 
+    stage('prod1') {
+      parallel {
+        stage('prod1') {
+          steps {
+            echo 'production1'
+          }
+        }
+
+        stage('prod2') {
+          steps {
+            echo 'prod2'
+          }
+        }
+
+      }
+    }
+
     stage('prod') {
       steps {
-        echo 'production pipeline'
+        echo 'prod'
       }
     }
 
