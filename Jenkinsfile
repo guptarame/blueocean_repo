@@ -5,9 +5,7 @@ pipeline {
       steps {
         echo 'build pipeline'
         sh '''date
-pwd
-
-'''
+pwd'''
       }
     }
 
