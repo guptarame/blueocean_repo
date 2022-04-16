@@ -4,6 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'build pipeline 112'
+        sh 'mvn test'
       }
     }
 
