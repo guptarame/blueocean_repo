@@ -4,7 +4,6 @@ pipeline {
     stage('build') {
       steps {
         echo 'build pipeline 112'
-        sh 'mvn test'
       }
     }
 
@@ -36,6 +35,7 @@ pipeline {
         stage('prod1') {
           steps {
             echo 'production1'
+            input(message: 'is it ok to continue', id: 'ok', ok: 'ok', submitter: 'ramesh', submitterParameter: 'ramesh')
           }
         }
 
