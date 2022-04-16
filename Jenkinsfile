@@ -4,8 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'build pipeline'
-        sh '''date
-pwd'''
+        sh 'pwd'
       }
     }
 
