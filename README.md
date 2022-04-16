@@ -1,2 +1,3 @@
 # blueocean_repo
-this is blueocean_repo_cicd_pipeline
+this is blueocean_repo_cicd_pipeline1
+this is blueocean_repo_cicd_pipeline2
